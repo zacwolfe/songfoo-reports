@@ -1,0 +1,89 @@
+{
+  "chart": {
+    "plotBackgroundColor": null,
+    "plotBorderWidth": null,
+    "plotShadow": false,
+    "type": "pie"
+  },
+  "title": {
+    "text": "BEACAP Live Performance Licensing by Genre January, 2016 to May, 2016"
+  },
+  "tooltip": {
+    "pointFormat": "{series.name}: <b>{point.percentage:.1f}%</b>"
+  },
+  "plotOptions": {
+    "pie": {
+      "allowPointSelect": true,
+      "cursor": "pointer",
+      "dataLabels": {
+        "enabled": true,
+        "format": "<b>{point.name}</b>: {point.percentage:.1f} %",
+        "style": {
+          "color": "black"
+        }
+      }
+    }
+  },
+  "series": [
+    {
+      "name": "Genres",
+      "colorByPoint": true,
+      "data": [
+        {
+          "name": "Rock",
+          "draggableY": true,
+          "draggableX": true,
+          "draggable": true,
+          "y": 27
+        },
+        {
+          "name": "Country",
+          "draggableY": true,
+          "y": 18,
+          "sliced": true,
+          "selected": true
+        },
+        {
+          "name": "Pop/Top 40/Current Hits",
+          "draggableY": true,
+          "y": 7
+        },
+        {
+          "name": "Oldies (50s-70s)",
+          "draggableY": true,
+          "y": 7
+        },
+        {
+          "name": "Rap/Hip-Hop",
+          "draggableY": true,
+          "y": 5
+        },
+        {
+          "name": "R&B",
+          "draggableY": true,
+          "y": 8
+        },
+        {
+          "name": "Blues",
+          "draggableY": true,
+          "y": 10
+        },
+        {
+          "name": "Jazz",
+          "draggableY": true,
+          "y": 8
+        },
+        {
+          "name": "Folk",
+          "draggableY": true,
+          "y": 5
+        },
+        {
+          "name": "Other",
+          "draggableY": true,
+          "y": 5
+        }
+      ]
+    }
+  ]
+}

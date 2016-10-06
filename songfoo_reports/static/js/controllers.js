@@ -29,6 +29,7 @@ function ReportController(
     $scope.reports = [
         {name: 'Test Report',id:'line_report_1', stock: false},
         {name: 'Test Report 2',id:'line_report_2', stock: true},
+        {name: 'Song Genres 1',id:'pie_chart_1', stock: false},
     ];
     $scope.currentReport = null;
 
@@ -42,9 +43,14 @@ function ReportController(
                     $scope.charts[report.id].destroy();
                 } catch(err){
                     console.log(err);
+                    try {
+                        $('#container').highcharts().destroy();
+                    } catch(err) {
+                        console.log(err);
+                    }
                 }
             }
-            var reportJson = $scope.reportData[report.id];
+            var reportJson = $.extend({}, $scope.reportData[report.id])
             if (report.stock) {
                 $scope.charts[report.id] = new Highcharts.StockChart(reportJson);
             }
@@ -137,8 +143,8 @@ function ReportController(
 
                 console.log(JSON.stringify(reportJson, null, 2));
 
+                $scope.reportData[report.id] = $.extend({}, reportJson);
 
-                $scope.reportData[reportId] = reportJson;
                 if (reportId in $scope.charts && $scope.charts[report.id] != null) {
                     try {
                         $scope.charts[report.id].destroy();
