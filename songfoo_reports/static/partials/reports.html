@@ -1,0 +1,23 @@
+
+<div class="header-section">
+	<div class="row header-row">
+		<div class="span12 masthead">
+			<h1 class="heading">Welcome BEACAP Music</h1>
+		</div>
+	</div>
+</div>
+<div class="header-push">
+</div>
+
+
+<div>
+    <select ng-model="currentReport" ng-options="r as r.name for r in reports" ng-change="selectReport(currentReport)"></select>
+</div>
+<div>
+    <h2>{{ currentReport.name }}</h2>
+    <div id="container"></div>
+    <div ng-hide="currentReport.stock">
+        <button ng-click="patchReport(currentReport)" class="btn">save</button>
+        <button ng-click="resetReport(currentReport)" class="btn">reset</button>
+    </div>
+</div>
