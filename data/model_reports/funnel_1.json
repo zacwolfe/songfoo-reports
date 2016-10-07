@@ -1,0 +1,52 @@
+{
+  "chart": {
+    "type": "funnel",
+    "marginRight": 100
+  },
+  "title": {
+    "text": "Setlist Purchase Funnel, July 2016",
+    "x": -50
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "enabled": true,
+        "format": "<b>{point.name}</b> ({point.y:,.0f})",
+        "color": "black",
+        "softConnector": true
+      },
+      "neckWidth": "30%",
+      "neckHeight": "25%"
+    }
+  },
+  "legend": {
+    "enabled": false
+  },
+  "series": [
+    {
+      "name": "Unique users",
+      "data": [
+        [
+          "App Opens",
+          20654
+        ],
+        [
+          "Song Search",
+          9064
+        ],
+        [
+          "Setlist Creation",
+          5987
+        ],
+        [
+          "Setlist Submit",
+          1976
+        ],
+        [
+          "Setlist Purchase",
+          1746
+        ]
+      ]
+    }
+  ]
+}

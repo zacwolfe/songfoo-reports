@@ -1,0 +1,284 @@
+{
+  "chart": {
+    "type": "pie"
+  },
+  "title": {
+    "text": "BEACAP Live Performance Licensing by Genre January, 2016 to May, 2016"
+  },
+  "subtitle": {
+    "text": "Click the slices to view versions."
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "enabled": true,
+        "format": "{point.name}: {point.y:.1f}%"
+      }
+    }
+  },
+  "tooltip": {
+    "headerFormat": "<span style=\"font-size:11px\">{series.name}</span><br>",
+    "pointFormat": "<span style=\"color:{point.color}\">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>"
+  },
+  "series": [
+    {
+      "name": "Genres",
+      "colorByPoint": true,
+      "data": [
+        {
+          "name": "Rock",
+          "y": 25,
+          "drilldown": "Rock"
+        },
+        {
+          "name": "Pop",
+          "y": 12,
+          "drilldown": "Pop"
+        },
+        {
+          "name": "Country",
+          "y": 18,
+          "drilldown": "Country"
+        },
+        {
+          "name": "Blues",
+          "y": 15,
+          "drilldown": "Blues"
+        },
+        {
+          "name": "R&B",
+          "y": 9,
+          "drilldown": "R&B"
+        },
+        {
+          "name": "Other",
+          "y": 21,
+          "drilldown": "Other"
+        }
+      ]
+    }
+  ],
+  "drilldown": {
+    "series": [
+      {
+        "name": "Rock",
+        "id": "Rock",
+        "data": [
+          [
+            "Classic Rock(60s-80s)",
+            10
+          ],
+          [
+            "Alternative/Modern/Indie Rock",
+            4
+          ],
+          [
+            "Hard Rock/Metal",
+            5
+          ],
+          [
+            "Oldies Rock(50s-60s)",
+            3
+          ],
+          [
+            "Punk",
+            2
+          ],
+          [
+            "Skiffle",
+            1
+          ]
+        ]
+      },
+      {
+        "name": "Pop",
+        "id": "Pop",
+        "data": [
+          [
+            "Synth Pop",
+            2
+          ],
+          [
+            "Adult Contemporary",
+            2
+          ],
+          [
+            "Electronic",
+            2
+          ],
+          [
+            "Dance",
+            2
+          ],
+          [
+            "Other",
+            4
+          ]
+        ]
+      },
+      {
+        "name": "Country",
+        "id": "Country",
+        "data": [
+          [
+            "Country Rock",
+            5
+          ],
+          [
+            "Christian Country",
+            1
+          ],
+          [
+            "Nashville",
+            1.25
+          ],
+          [
+            "Tex-Mex",
+            1.25
+          ],
+          [
+            "Traditional",
+            1.5
+          ],
+          [
+            "Western Swing",
+            0.5
+          ],
+          [
+            "Classic Country",
+            3
+          ],
+          [
+            "Bluegrass",
+            2
+          ],
+          [
+            "Other",
+            1.5
+          ]
+        ]
+      },
+      {
+        "name": "Blues",
+        "id": "Blues",
+        "data": [
+          [
+            "Chicago Blues",
+            3
+          ],
+          [
+            "Texas Blues",
+            2
+          ],
+          [
+            "Gospel Blues",
+            2
+          ],
+          [
+            "Delta Blues",
+            1.5
+          ],
+          [
+            "Electric Blues",
+            2.5
+          ],
+          [
+            "New Orleans Blues",
+            1
+          ],
+          [
+            "Blues Rock",
+            1
+          ],
+          [
+            "St Louis Blues",
+            1
+          ],
+          [
+            "Other",
+            1
+          ]
+        ]
+      },
+      {
+        "name": "R&B",
+        "id": "R&B",
+        "data": [
+          [
+            "Motown Sound",
+            3
+          ],
+          [
+            "Soul",
+            2
+          ],
+          [
+            "Funk",
+            2
+          ],
+          [
+            "Doo Wop",
+            1
+          ],[
+            "Other",
+            1
+          ]
+        ]
+      },
+      {
+        "name": "Other",
+        "id": "Other",
+        "data": [
+          [
+            "Contemporary Jazz",
+            3
+          ],
+          [
+            "Hard Bop",
+            2
+          ],
+          [
+            "Latin Jazz",
+            2
+          ],
+          [
+            "Jazz Fusion",
+            2
+          ],
+          [
+            "Bebop",
+            2
+          ],
+          [
+            "Salsa",
+            1
+          ],
+          [
+            "Cuban",
+            1
+          ],
+          [
+            "Christian",
+            1
+          ],
+          [
+            "Folk",
+            1
+          ],
+          [
+            "Classical",
+            1
+          ],
+          [
+            "Reggae",
+            2
+          ],
+          [
+            "Other",
+            3
+          ]
+        ]
+      }
+    ]
+  }
+}
