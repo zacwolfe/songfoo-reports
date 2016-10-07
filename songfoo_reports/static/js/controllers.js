@@ -31,6 +31,8 @@ function ReportController(
         {name: 'Test Report 2',id:'line_report_2', stock: true},
         {name: 'Song Genres 1',id:'pie_chart_1', stock: false},
         {name: 'Song Genres 2',id:'pie_chart_2', stock: false},
+        {name: 'Songs Per Set',id:'histogram_1', stock: false},
+        {name: 'Setlist Funnel',id:'funnel_1', stock: false},
     ];
     $scope.currentReport = null;
 
@@ -146,7 +148,7 @@ function ReportController(
 
                 $scope.reportData[report.id] = $.extend({}, reportJson);
 
-                if (reportId in $scope.charts && $scope.charts[report.id] != null) {
+                if (report.id in $scope.charts && $scope.charts[report.id] != null) {
                     try {
                         $scope.charts[report.id].destroy();
                     } catch (err) {}
