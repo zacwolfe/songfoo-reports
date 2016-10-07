@@ -3,11 +3,11 @@
       "renderTo":"container"
    },
    "title":{
-      "text":"Monthly Average Temperature",
+      "text":"Revenue By Venue Type",
       "x":-20
    },
    "subtitle":{
-      "text":"Source: WorldClimate.com",
+      "text":"Source: song perf licenses",
       "x":-20
    },
    "xAxis":{
@@ -28,7 +28,7 @@
    },
    "yAxis":{
       "title":{
-         "text":"Temperature (°C)"
+         "text":"Revenue (USD)"
       },
       "plotLines":[
          {
@@ -53,12 +53,12 @@
    },
    "series":[
       {
-         "name":"Tokyo",
+         "name":"Bars",
          "draggableY":true,
          "data":[7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
       },
       {
-         "name":"New York",
+         "name":"Restaurant",
          "draggableY":true,
          "data":[
             -0.2,
@@ -76,7 +76,7 @@
          ]
       },
       {
-         "name":"Berlin",
+         "name":"Coffeeshops (< 30 seats)",
          "draggableY":true,
          "data":[
             -0.9,
@@ -94,7 +94,7 @@
          ]
       },
       {
-         "name":"London",
+         "name":"Concert Halls (> 100 seats)",
          "draggableY":true,
          "data":[
             3.9,
