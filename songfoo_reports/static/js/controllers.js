@@ -27,8 +27,8 @@ function ReportController(
     ReportService) {
 
     $scope.reports = [
-        {name: 'Test Report',id:'line_report_1', stock: false},
-        {name: 'Test Report 2',id:'line_report_2', stock: true},
+        {name: 'Revenue By Venue Type',id:'line_report_1', stock: false},
+        {name: 'Total Revenue Trend',id:'line_report_2', stock: true},
         {name: 'Song Genres 1',id:'pie_chart_1', stock: false},
         {name: 'Song Genres 2',id:'pie_chart_2', stock: false},
         {name: 'Songs Per Set',id:'histogram_1', stock: false},

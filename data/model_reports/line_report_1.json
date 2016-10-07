@@ -1,115 +1,412 @@
 {
-   "chart":{
-      "renderTo":"container"
-   },
-   "title":{
-      "text":"Revenue By Venue Type",
-      "x":-20
-   },
-   "subtitle":{
-      "text":"Source: song perf licenses",
-      "x":-20
-   },
-   "xAxis":{
-      "categories":[
-         "Jan",
-         "Feb",
-         "Mar",
-         "Apr",
-         "May",
-         "Jun",
-         "Jul",
-         "Aug",
-         "Sep",
-         "Oct",
-         "Nov",
-         "Dec"
-      ]
-   },
-   "yAxis":{
-      "title":{
-         "text":"Revenue (USD)"
-      },
-      "plotLines":[
-         {
-            "value":0,
-            "width":1,
-            "color":"#808080"
-         }
-      ]
-   },
-   "tooltip":{
-      "valueSuffix":"°C",
-      "yDecimals": 2
-   },
-   "legend":{
-      "layout":"vertical",
-      "align":"right",
-      "verticalAlign":"middle",
-      "borderWidth":0
-   },
-   "plotOptions":{
-      "stickyTracking":false
-   },
-   "series":[
+  "subtitle": {
+    "text": "Source: song perf licenses", 
+    "x": -20
+  }, 
+  "yAxis": {
+    "plotLines": [
       {
-         "name":"Bars",
-         "draggableY":true,
-         "data":[7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
-      },
-      {
-         "name":"Restaurant",
-         "draggableY":true,
-         "data":[
-            -0.2,
-            0.8,
-            5.7,
-            11.3,
-            17,
-            22,
-            24.8,
-            24.1,
-            20.1,
-            14.1,
-            8.6,
-            2.5
-         ]
-      },
-      {
-         "name":"Coffeeshops (< 30 seats)",
-         "draggableY":true,
-         "data":[
-            -0.9,
-            0.6,
-            3.5,
-            8.4,
-            13.5,
-            17,
-            18.6,
-            17.9,
-            14.3,
-            9,
-            3.9,
-            1
-         ]
-      },
-      {
-         "name":"Concert Halls (> 100 seats)",
-         "draggableY":true,
-         "data":[
-            3.9,
-            4.2,
-            5.7,
-            8.5,
-            11.9,
-            15.2,
-            17,
-            16.6,
-            14.2,
-            10.3,
-            6.6,
-            4.8
-         ]
+        "color": "#808080", 
+        "width": 1, 
+        "value": 0
       }
-   ]
+    ], 
+    "title": {
+      "text": "Revenue (USD)"
+    }
+  }, 
+  "series": [
+    {
+      "draggableY": true, 
+      "_symbolIndex": 0, 
+      "data": [
+        {
+          "y": -0.161716171617166, 
+          "x": 0, 
+          "dragStart": {
+            "y": 7
+          }
+        }, 
+        {
+          "y": 1.7019801980198004, 
+          "x": 1, 
+          "dragStart": {
+            "y": 6.9
+          }
+        }, 
+        {
+          "y": 3.0313531353135303, 
+          "x": 2, 
+          "dragStart": {
+            "y": 9.5
+          }
+        }, 
+        {
+          "y": 3.9884488448844895, 
+          "x": 3, 
+          "dragStart": {
+            "y": 14.5
+          }
+        }, 
+        {
+          "y": 5.2627062706270635, 
+          "x": 4, 
+          "dragStart": {
+            "y": 18.2
+          }
+        }, 
+        {
+          "y": 7.292079207920793, 
+          "x": 5, 
+          "dragStart": {
+            "y": 21.5
+          }
+        }, 
+        {
+          "y": 9.721452145214517, 
+          "x": 6, 
+          "dragStart": {
+            "y": 25.2
+          }
+        }, 
+        {
+          "y": 12.523102310231025, 
+          "x": 7, 
+          "dragStart": {
+            "y": 26.5
+          }
+        }, 
+        {
+          "y": 15.28019801980198, 
+          "x": 8, 
+          "dragStart": {
+            "y": 23.3
+          }
+        }, 
+        {
+          "y": 21.18778877887789, 
+          "x": 9, 
+          "dragStart": {
+            "y": 18.3
+          }
+        }, 
+        {
+          "y": 31.325742574257426, 
+          "x": 10, 
+          "dragStart": {
+            "y": 13.9
+          }
+        }, 
+        {
+          "y": 44.088448844884496, 
+          "x": 11, 
+          "dragStart": {
+            "y": 35.83762376237624
+          }
+        }
+      ], 
+      "name": "Bars", 
+      "_colorIndex": 0
+    }, 
+    {
+      "draggableY": true, 
+      "_symbolIndex": 1, 
+      "data": [
+         {
+          "y": 0.0,
+          "x": 0
+        },
+        {
+          "y": 0.7,
+          "x": 1,
+          "dragStart": {
+            "y": 2.6966996699669954
+          }
+        },
+        {
+          "y": 1.195049504950494,
+          "x": 2,
+          "dragStart": {
+            "y": 2.6966996699669954
+          }
+        },
+        {
+          "y": 1.597029702970298, 
+          "x": 3, 
+          "dragStart": {
+            "y": 6.910561056105612
+          }
+        }, 
+        {
+          "y": 1.7524752475247531, 
+          "x": 4, 
+          "dragStart": {
+            "y": 17
+          }
+        }, 
+        {
+          "y": 2.3630363036303628, 
+          "x": 5, 
+          "dragStart": {
+            "y": 22
+          }
+        }, 
+        {
+          "y": 2.8528052805280533, 
+          "x": 6, 
+          "dragStart": {
+            "y": 24.8
+          }
+        }, 
+        {
+          "y": 3.3079207920792086, 
+          "x": 7, 
+          "dragStart": {
+            "y": 24.1
+          }
+        }, 
+        {
+          "y": 4.505940594059405, 
+          "x": 8, 
+          "dragStart": {
+            "y": 20.1
+          }
+        }, 
+        {
+          "y": 5.8986798679868, 
+          "x": 9, 
+          "dragStart": {
+            "y": 14.1
+          }
+        },
+        {
+          "y": 9.1,
+          "x": 10
+        },
+        {
+          "y": 14.166666666666671, 
+          "x": 11, 
+          "dragStart": {
+            "y": 2.5
+          }
+        }
+      ], 
+      "name": "Restaurant", 
+      "_colorIndex": 1
+    }, 
+    {
+      "draggableY": true, 
+      "_symbolIndex": 2, 
+      "data": [
+        {
+          "y": -0.20693069306930845, 
+          "x": 0, 
+          "dragStart": {
+            "y": -0.9
+          }
+        }, 
+        0.6, 
+        {
+          "y": 1.3052805280528057, 
+          "x": 2, 
+          "dragStart": {
+            "y": 3.5
+          }
+        }, 
+        {
+          "y": 1.8158415841584148, 
+          "x": 3, 
+          "dragStart": {
+            "y": 8.4
+          }
+        }, 
+        {
+          "y": 1.948844884488448, 
+          "x": 4, 
+          "dragStart": {
+            "y": 2.526402640264025
+          }
+        }, 
+        {
+          "y": 2.561056105610561, 
+          "x": 5, 
+          "dragStart": {
+            "y": 3.3696369636963706
+          }
+        }, 
+        {
+          "y": 3.6990099009901005, 
+          "x": 6, 
+          "dragStart": {
+            "y": 5.085148514851488
+          }
+        }, 
+        {
+          "y": 5.078217821782177, 
+          "x": 7, 
+          "dragStart": {
+            "y": 7.734983498349834
+          }
+        }, 
+        {
+          "y": 7.501320132013202, 
+          "x": 8, 
+          "dragStart": {
+            "y": 8.293399339933993
+          }
+        }, 
+        {
+          "y": 9.95709570957095, 
+          "x": 9, 
+          "dragStart": {
+            "y": 11.54125412541254
+          }
+        }, 
+        {
+          "y": 13.619471947194715, 
+          "x": 10, 
+          "dragStart": {
+            "y": 14.41155115511551
+          }
+        }, 
+        {
+          "y": 18.904290429042906, 
+          "x": 11, 
+          "dragStart": {
+            "y": 17.51815181518152
+          }
+        }
+      ], 
+      "name": "Coffeeshops (< 30 seats)", 
+      "_colorIndex": 2
+    }, 
+    {
+      "draggableY": true, 
+      "_symbolIndex": 3, 
+      "data": [
+        {
+          "y": 0,
+          "x": 0, 
+          "dragStart": {
+            "y": 3.9
+          }
+        }, 
+        {
+          "y": 0.9656765676567671, 
+          "x": 1, 
+          "dragStart": {
+            "y": 4.2
+          }
+        }, 
+        {
+          "y": 2.0036303630363026, 
+          "x": 2, 
+          "dragStart": {
+            "y": 5.7
+          }
+        }, 
+        {
+          "y": 4.803630363036303, 
+          "x": 3, 
+          "dragStart": {
+            "y": 8.5
+          }
+        }, 
+        {
+          "y": 9.01221122112211, 
+          "x": 4, 
+          "dragStart": {
+            "y": 10.05181518151815
+          }
+        }, 
+        {
+          "y": 13.236303630363036, 
+          "x": 5, 
+          "dragStart": {
+            "y": 15.2
+          }
+        }, 
+        {
+          "y": 15.382838283828384, 
+          "x": 6, 
+          "dragStart": {
+            "y": 17
+          }
+        },
+        {
+          "y": 16.6,
+          "x": 7,
+          "dragStart": {
+            "y": 17
+          }
+        },
+        {
+          "y": 17.896369636963698, 
+          "x": 8, 
+          "dragStart": {
+            "y": 16.51023102310231
+          }
+        }, 
+        {
+          "y": 19.21089108910891, 
+          "x": 9, 
+          "dragStart": {
+            "y": 17.82475247524752
+          }
+        }, 
+        {
+          "y": 21.599999999999998, 
+          "x": 10, 
+          "dragStart": {
+            "y": 11.104950495049504
+          }
+        }, 
+        {
+          "y": 24.96501650165016, 
+          "x": 11, 
+          "dragStart": {
+            "y": 12.885808580858086
+          }
+        }
+      ], 
+      "name": "Concert Halls (> 100 seats)", 
+      "_colorIndex": 3
+    }
+  ], 
+  "title": {
+    "text": "Revenue By Venue Type", 
+    "x": -20
+  }, 
+  "chart": {
+    "renderTo": "container"
+  }, 
+  "tooltip": {
+    "yDecimals": 2, 
+    "valueSuffix": "\u00b0C"
+  }, 
+  "plotOptions": {
+    "stickyTracking": false
+  }, 
+  "xAxis": {
+    "categories": [
+      "Jan", 
+      "Feb", 
+      "Mar", 
+      "Apr", 
+      "May", 
+      "Jun", 
+      "Jul", 
+      "Aug", 
+      "Sep", 
+      "Oct", 
+      "Nov", 
+      "Dec"
+    ]
+  }, 
+  "legend": {
+    "verticalAlign": "middle", 
+    "align": "right", 
+    "layout": "vertical", 
+    "borderWidth": 0
+  }
 }
