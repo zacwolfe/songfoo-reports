@@ -30,6 +30,7 @@ function ReportController(
         {name: 'Test Report',id:'line_report_1', stock: false},
         {name: 'Test Report 2',id:'line_report_2', stock: true},
         {name: 'Song Genres 1',id:'pie_chart_1', stock: false},
+        {name: 'Song Genres 2',id:'pie_chart_2', stock: false},
     ];
     $scope.currentReport = null;
 

@@ -39,9 +39,8 @@
         {
           "name": "Country",
           "draggableY": true,
-          "y": 18,
-          "sliced": true,
-          "selected": true
+          "y": 18
+
         },
         {
           "name": "Pop/Top 40/Current Hits",
@@ -71,7 +70,9 @@
         {
           "name": "Jazz",
           "draggableY": true,
-          "y": 8
+          "y": 8,
+          "sliced": true,
+          "selected": true
         },
         {
           "name": "Folk",
